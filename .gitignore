@@ -12,6 +12,7 @@ bin/
 build/
 develop-eggs/
 dist/
+deb_dist/
 eggs/
 lib/
 lib64/

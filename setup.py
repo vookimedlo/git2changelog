@@ -17,7 +17,7 @@
 
 from distutils.core import setup
 
-version = '0.1'
+version = '0.2'
 name = 'git2changelog'
 
 setup(
@@ -37,6 +37,9 @@ setup(
     data_files=[
             ('/usr/share/doc/%s-%s' % (name,version), ['doc/LICENSE']),
             ('/usr/share/man/man8', ['doc/git2changelog.8.gz']),
+        ],
+    install_requires=[
+        "python-dateutil"
         ],
     )
 
