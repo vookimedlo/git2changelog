@@ -3,6 +3,12 @@ git2changelog
 
 # Purpose
 git2changelog analyzes git repositories to generate formatted changelogs
+
+# Origin
+
+This is a fork of https://github.com/jduncan-rva/git2changelog
+which appears to not be maintaned anymore.
+
 # Usage
 ```bash
 git2changelog -r REPO -b BEGIN_TAG [-e END_TAG -s SEARCH_STRING]
@@ -23,5 +29,7 @@ git2changelog -r REPO -b BEGIN_TAG [-e END_TAG -s SEARCH_STRING]
   -r REPO, --repo=REPO  Repository to Scan. defaults to current directory.
 
 ```
-#Mailing Lists
+
+
+# Mailing Lists
 None Yet
